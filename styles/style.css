@@ -357,3 +357,156 @@ header {
 .bonus-div>h3 {
     margin-bottom: 25px;
 }
+
+/* responsive */
+@media screen and (max-width: 767px) {
+    .nav {
+        flex-direction: column;
+        align-items: unset;
+        justify-content: unset;
+    }
+
+    .nav-left {
+        margin-left: 35px;
+        margin-bottom: 10px;
+    }
+
+    .nav-right {
+        flex-direction: column;
+        text-align: left;
+
+    }
+
+    .head-title {
+        font-size: 30px;
+    }
+
+    .head-part {
+        margin-left: 22px;
+        margin-right: 22px;
+        text-align: center;
+    }
+
+    .head-pic>img {
+        width: 100%;
+        height: 250px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .head-pic> {
+        width: 100%;
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+
+    .features {
+        flex-direction: column;
+        margin: 22px 22px;
+        gap: 60px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .left-features {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .feature-2nd-part {
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        margin: 22px 25px;
+    }
+
+    .feature-2nd-part-right {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .feature-2nd-part-right>img {
+        width: 100%;
+    }
+
+    .little-box {
+        padding: 22px 28px;
+        background-color: #FF900E;
+        color: white;
+        width: 142px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        position: unset;
+        border-radius: 8px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .little-box-title {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .little-box-text {
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    .facts {
+        margin: 30px 25px;
+        text-align: center;
+    }
+
+    .awards {
+        margin: 30px 35px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        text-align: center;
+    }
+
+    .sponsors {
+        margin: 30px 25px;
+        text-align: center;
+    }
+
+    .sponsor-logos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 17px;
+        margin: 40px 120px;
+        justify-content: space-around;
+    }
+
+    .bonus-text {
+        font-weight: 600;
+        font-size: 28px;
+        color: #262A4E;
+        margin-bottom: 30px;
+    }
+
+    .bonus-fields {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 25px;
+        gap: 30px;
+    }
+
+    .copyright {
+        margin: 0;
+    }
+
+    .copy {
+        border-radius: 0px;
+        background: #FFF4E7;
+        padding: 35px 32px;
+        font-size: 10px;
+        font-weight: 400;
+        color: #424242;
+        margin: 0px auto 0px auto;
+    }
+}
